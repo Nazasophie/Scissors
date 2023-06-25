@@ -561,37 +561,95 @@ main .main-fifth .main-fifth-div-2 .main-fifth-div-2-9 .img-7-1 {
 }
 /*  */
 
-.revolution{
-  margin-top:80px ;
- border: #141414 solid 1px;
- opacity: 50%;
- padding: 50px ;
-
-
+main .revolution {
+  background-image: url("images/b-img-2.png");
+  width: 100%;
+  height: 299px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.revolution spam{
-font-family: Gilroy-Bold;
-font-size: 40px;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: center;
+main .revolution span {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
 }
 
-.revolution button{
-  margin-top: 20px;
+main .revolution button {
+  margin-top: 40px;
   width: 200px;
   height: 48px;
-  padding: 12px 24px 12px 24px;
   border-radius: 100px;
+  border: 0;
   background-color: #005ae2;
-
+  color: #ffffff;
+  cursor: pointer;
 }
-
-.foota{
-  
-  margin-bottom: ;
+/* Footer style start */
+footer {
+  background-image: url("images/footer.png");
+  width: 100%;
+  height: 561px;
 }
-  
-
-
+.footer {
+  display: flex;
+  margin: 95px 0px 0px 0px;
+  justify-content: center;
+}
+.footer .footer-sub-div-1 {
+  padding: 0px 100px 0px 0px;
+}
+.footer .footer-sub-div-1 div {
+  margin: 20px 0px 0px 0px;
+}
+.footer .footer-sub-div-1 div img {
+  padding: 0px 10px 0px 10px;
+}
+.footer .footer-sub-div-2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-1 {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-1 .why,
+.solution,
+.products,
+.company {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-1 .why a,
+.solution a,
+.products a,
+.company a {
+  color: #112232;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -80px;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-2 .resources,
+.feature,
+.legal {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-sub-div-2 .footer-sub-div-2-2 .resources a,
+.feature a,
+.legal a {
+  color: #112232;
+}
+footer .footer-sub-div-3 p {
+  text-align: right;
+  margin: 0px 100px 0px 0px;
+}
